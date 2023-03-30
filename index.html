@@ -1,1 +1,92 @@
-Hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Set the font family and colors */
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f7f7f7;
+      }
+      h1, h2, h3 {
+        color: #555;
+      }
+      a {
+        color: #ff7300;
+        text-decoration: none;
+      }
+      /* Style the header */
+      header {
+        background-color: #ff7300;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      header h1 {
+        margin: 0;
+      }
+      header nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      header nav li {
+        margin-left: 20px;
+      }
+      /* Style the main content */
+      main {
+        margin-top: 100px;
+        padding: 20px;
+      }
+      article {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      article header {
+        margin-bottom: 20px;
+      }
+      article header h2 {
+        margin-top: 0;
+      }
+      article header p {
+        margin: 0;
+        font-size: 14px;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>Blog Post Title</h2>
+          <p>Published on January 1, 2023 by Jane Doe</p>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus ipsum eu lorem dictum, a consectetur turpis tempus. Aliquam eget eros odio. Donec in urna sed arcu interdum ullamcorper. Sed vel ultricies urna. Vestibulum tincidunt euismod libero, eu sodales nibh faucibus quis. Nam eu elit id elit semper efficitur. Curabitur volutpat purus id enim tincidunt, eget convallis eros efficitur.</p>
+        <p>Phasellus non turpis eu lacus tristique iaculis. Praesent convallis ac ipsum at gravida. Nulla facilisi. Nulla convallis justo vel risus iaculis, id tristique ante facilisis. Donec quis ultricies eros. Curabitur semper finibus est,
